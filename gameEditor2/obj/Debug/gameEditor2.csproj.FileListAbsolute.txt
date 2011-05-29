@@ -1,0 +1,12 @@
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\bin\Debug\Editor.exe
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\bin\Debug\Editor.pdb
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\bin\Debug\commonLib.dll
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\bin\Debug\commonLib.pdb
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\gameEditor2.EdgeForm.resources
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\gameEditor2.Form1.resources
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\gameEditor2.LoggerView.resources
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\gameEditor2.Properties.Resources.resources
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\gameEditor2.csproj.GenerateResource.Cache
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\Editor.exe
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2\obj\Debug\Editor.pdb

@@ -1,0 +1,5 @@
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2Lib\bin\Release\commonLib.dll
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2Lib\bin\Release\commonLib.pdb
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2Lib\obj\Release\ResolveAssemblyReference.cache
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2Lib\obj\Release\commonLib.dll
+C:\Users\koji\Documents\Visual Studio 2008\Projects\gameEditor2\gameEditor2Lib\obj\Release\commonLib.pdb
