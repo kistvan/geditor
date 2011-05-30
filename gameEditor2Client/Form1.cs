@@ -108,7 +108,7 @@ using gameEditor2Client.input;
         }
 
         public void init() {
-            Result rs = kbDevice.SetCooperativeLevel(this.Handle, CooperativeLevel.Foreground | CooperativeLevel.Nonexclusive);
+              Result rs = kbDevice.SetCooperativeLevel(this.Handle, CooperativeLevel.Background | CooperativeLevel.Nonexclusive);
             kbDevice.Properties.BufferSize = 10;
         }
 
