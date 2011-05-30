@@ -101,7 +101,7 @@ using gameEditor2Client.input;
             floor.edgeYEnable = config.edgeYListEnable;
             cameraPosition.Floor = floor;
 
-            topVertex = new TopPositionVertex(device);
+            topVertex = new TopPositionVertex(device, new TopPosition(0,0, device.Viewport.Width, device.Viewport.Height));
 
             cameraPosition.moveEvent.encountRatio = config.encounterRatio;
 

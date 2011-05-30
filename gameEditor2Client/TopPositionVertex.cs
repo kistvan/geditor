@@ -21,12 +21,15 @@ namespace gameEditor2Client.screenEffect
         private VertexBuffer vertices;
         private VertexDeclaration vertexDecl;
 
+        private TopPosition tPosition;
+
         private int vNum;
         private int faceNum;
 
-        public TopPositionVertex(Device device)
+        public TopPositionVertex(Device device, TopPosition tPosition)
         {
             this.device = device;
+            this.tPosition = tPosition;
             vNum = 4;
             faceNum = 2;
             vertices = new VertexBuffer(device, vNum * Marshal.SizeOf(typeof(CUSTOM_VX)), Usage.WriteOnly, VertexFormat.None, Pool.Managed);
@@ -38,22 +41,22 @@ namespace gameEditor2Client.screenEffect
             float h = device.Viewport.Height;
             vs[0] = new CUSTOM_VX()
             {
-                Position = new Vector4(0f, h, 0f, 1.0f),
+                Position = new Vector4(tPosition.X, tPosition.HeightPos, 0f, 1.0f),
                 Color = white.ToArgb(),
             };
             vs[1] = new CUSTOM_VX()
             {
-                Position = new Vector4(0f, 0f, 0f, 1.0f),
+                Position = new Vector4(tPosition.X, tPosition.Y, 0f, 1.0f),
                 Color = white.ToArgb(),
             };
             vs[2] = new CUSTOM_VX()
             {
-                Position = new Vector4(w, h, 0f, 1.0f),
+                Position = new Vector4(tPosition.WidthPos, tPosition.HeightPos, 0f, 1.0f),
                 Color = white.ToArgb(),
             };
             vs[3] = new CUSTOM_VX()
             {
-                Position = new Vector4(w, 0f, 0f, 1.0f),
+                Position = new Vector4(tPosition.WidthPos, 0f, 0f, 1.0f),
                 Color = white.ToArgb(),
             };
             

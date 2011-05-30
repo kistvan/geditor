@@ -17,7 +17,7 @@ namespace gameEditor2Client.screenEffect
         private TopPositionVertex vertex;
 
         public Flash(Device device) {
-            vertex = new TopPositionVertex(device);
+            vertex = new TopPositionVertex(device, new TopPosition(0,0,device.Viewport.Width, device.Viewport.Height));
 
             
         }
