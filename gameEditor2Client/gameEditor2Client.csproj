@@ -103,6 +103,7 @@
     <Compile Include="ScreenEffects.cs" />
     <Compile Include="screenEffect\Flash.cs" />
     <Compile Include="screenEffect\ScreenEffect.cs" />
+    <Compile Include="TopPosition.cs" />
     <Compile Include="TopPositionVertex.cs" />
   </ItemGroup>
   <ItemGroup>
